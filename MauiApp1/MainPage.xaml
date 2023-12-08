@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="MauiApp1.MainPage">
+
+    <ContentPage Title="Suma">
+        <StackLayout>
+            <Label Text="Valor 1:"/>
+            <Entry x:Name="valor1_suma"/>
+            <Label Text="Valor 2:"/>
+            <Entry x:Name="valor2_suma"/>
+            <Label Text="Valor 3:"/>
+            <Entry x:Name="valor3_suma"/>
+            <Button Text="Realizar Suma" Clicked="Suma_Clicked"/>
+            <Label x:Name="resultado_suma"/>
+            <Button Text="Limpiar" Clicked="Limpiar_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Resta">
+        <StackLayout>
+            <Label Text="Valor 1:"/>
+            <Entry x:Name="valor1_resta"/>
+            <Label Text="Valor 2:"/>
+            <Entry x:Name="valor2_resta"/>
+            <Button Text="Realizar Resta" Clicked="Resta_Clicked"/>
+            <Label x:Name="resultado_resta"/>
+            <Button Text="Limpiar" Clicked="Limpiar_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Multiplicación">
+        <StackLayout>
+            <Label Text="Valor 1:"/>
+            <Entry x:Name="valor1_multiplicacion"/>
+            <Label Text="Valor 2:"/>
+            <Entry x:Name="valor2_multiplicacion"/>
+            <Label Text="Valor 3:"/>
+            <Entry x:Name="valor3_multiplicacion"/>
+            <Button Text="Realizar Multiplicación" Clicked="Multiplicacion_Clicked"/>
+            <Label x:Name="resultado_multiplicacion"/>
+            <Button Text="Limpiar" Clicked="Limpiar_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="División">
+        <StackLayout>
+            <Label Text="Valor 1:"/>
+            <Entry x:Name="valor1_division"/>
+            <Label Text="Valor 2:"/>
+            <Entry x:Name="valor2_division"/>
+            <Button Text="Realizar División" Clicked="Division_Clicked"/>
+            <Label x:Name="resultado_division"/>
+            <Button Text="Limpiar" Clicked="Limpiar_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
+    
